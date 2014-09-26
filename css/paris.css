@@ -1,0 +1,54 @@
+/***********************************************************************
+**														              **
+**         PARIS Html5 Template		   								  **
+**         Author: Designare									      **
+**		   Author URI: http://designarethemes.com/designare			  **
+**         Version: 1.1					                 		      **
+**														              **
+************************************************************************/
+/* minimal */
+.parallax-overlay-pattern{
+	background-image: url("../images/patterns/overlay-pattern.png") !important;
+	background-color: rgba(44,62,80 , 0.5);
+	position: absolute;
+	z-index: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: repeat;
+}
+.parallax-overlay-pattern.soft, .overlay-pattern.soft{opacity: .5;}
+.box-overlay-pattern{
+	position: relative;
+	width: 100%;
+	height: 100%;   text-align: center;
+}
+.parallax-content{
+	padding: 90px 0;
+	z-index: 9;   
+	width: 100%;
+	position: absolute;
+}
+.mediumpadding{padding: 85px 0;}
+.smallpadding{padding: 40px 0;}
+.section-title.smallmargin{margin-bottom: 40px;}
+.overlay-pattern{
+	background-image: url("../images/patterns/overlay-pattern.png") !important;
+	background-color: rgba(44,62,80 , 0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: repeat;
+	z-index: 9;   
+}
+.overlay-pattern.dark{background-color: rgba(44,62,80 , 0.8 );}
+.parallax .recent-clients .client-logos a img {
+	margin-right: 40px;
+}
+.parallax .recent-clients .client-logos a:hover {
+	opacity: 0.8;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+}
